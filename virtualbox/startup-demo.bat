@@ -1,5 +1,5 @@
 # Start my openshift cluster
-minishift start --memory 6144 --cpus 3;
+minishift start --memory 6144 --cpus 3 --vm-driver=virtualbox;
 
 # Log in into the new OpenShift cluster
 oc login -u system:admin;
