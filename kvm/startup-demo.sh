@@ -10,7 +10,7 @@ oc create -f https://raw.githubusercontent.com/openshift/origin/master/examples/
 oc create -f https://raw.githubusercontent.com/jboss-openshift/application-templates/master/jboss-image-streams.json -n openshift
 
 # Clone the demo git
-git clone https://github.com/OpenShiftDemos/openshift-cd-demo.git
+git clone https://github.com/ThomasClaessens/openshift-cd-demo.git
 
 # Create the projects
 oc new-project dev --display-name="Tasks - Dev";
